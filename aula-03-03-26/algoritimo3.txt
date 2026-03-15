@@ -1,0 +1,14 @@
+algoritmo<salarial>
+var
+nome;salarioF;vVendas;comissao;
+
+leia("nome usuário:"nome);
+leia("insira valor salario fixo:"salarioF);
+leia(insira valor de vendas:"vVendas);
+comissao<-vVendas*0.15;
+
+escreva("nome suario:"nome);
+escreva("salario fixo:"salarioF);
+escreva("total valor de vendas:"vVendas);
+escreva("comissão das vendas:"comissao);
+fim

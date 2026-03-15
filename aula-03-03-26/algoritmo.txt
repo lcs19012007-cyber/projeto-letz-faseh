@@ -1,0 +1,18 @@
+algoritimo<media prova>
+var:
+nome;pUm;pDois;pTres;soma;media;provas;
+
+provas<-3
+leia("insira seu nome:"nome);
+leia("insira 1ºprova:"pUm);
+leia("insira 2ºprova:"pDois);
+leia("insira 3ºprova:"pTres);
+
+soma<-pUm+pDois+pTres
+media<-soma/provas
+
+escreva("nome do aluno:"nome);
+escreva("resultado da media:"media);
+fim
+
+

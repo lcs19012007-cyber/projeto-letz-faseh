@@ -1,0 +1,16 @@
+algoritimo<troca>
+var:
+vA;vB;troca;
+
+
+leia("insira 1ºvalor:"vA);
+leia("insira 2ºvalor:"vB);
+
+troca<-vA
+vA<-vB
+vB<-troca
+
+escreva("1ºvalor:"vA);
+escreva("2ºvalor:"vB);
+fim
+
