@@ -1,0 +1,9 @@
+algoritimo<Exercício2>
+var
+F;C;
+
+leia("escreva temperatura celsius:", C);
+F<-(9*C+160)/5
+
+escreva("conversão para Fahrenheit:", F);
+fimalgoritmo

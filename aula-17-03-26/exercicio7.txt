@@ -1,0 +1,25 @@
+algoritmo<exercicio7>
+var
+nome, nUm, nDois, nTres, media: real
+Leia("escreva seu nome:", nome);
+Leia ("nota da primeira prova", nUm);
+Leia ("nota da segunda prova", nDois);
+Leia ("nota da terceira prova", nTres);
+Se (naUm>10) ou (naDois>=10) ou (naTres>10);
+Escreva("erro nota inválida");
+Senão
+
+Média<- (nUm+nDois+nTres)/3;
+
+Se media>=7;
+Escreva("aluno aprovado!!:");
+Senao
+Se media<=5;
+Escreva("aluno reprovado!")
+Senão
+Escreva("aluno em recuperação")
+Fimse 
+
+Escreva("nome do aluno:", nome)
+Escreva ("media:", media)
+Fimalgoritmo

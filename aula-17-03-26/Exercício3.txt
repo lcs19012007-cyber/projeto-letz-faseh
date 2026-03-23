@@ -1,0 +1,11 @@
+algoritimo<Exercício3>
+var
+dolar,comvercao,cotacaoD,
+leia("valor em dólar:", dolar)
+leia("valor da cotação do dólar:", cotacaoD);
+comvercao<-dólar*cotacaoD
+
+escreva("conversão para real:", comvercao);
+fimAlgoritmo
+
+

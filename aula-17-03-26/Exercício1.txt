@@ -1,0 +1,10 @@
+algoritimo<Exercicio1>
+var
+totalP;cGasto;media;
+
+leia("escreva km percorrido do veiculo:", totalP);
+leia("escreva  total de combustível gasto:", cGasto);
+media<-total
+
+escreva(" consumo médio do veiculo:", media);
+fimalgoritimo

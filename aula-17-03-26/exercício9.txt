@@ -1,0 +1,37 @@
+algoritmo<exercício9>
+var
+carro,vcarro,desconto,pago,escolha, cotador2010,contadorG
+
+contador2010<-0
+contadorG<-0
+
+leia(escolha)
+
+enquanto escolha <> "N" faca
+
+leia("qual o ano do seu veiculo??:", carro)
+leia("qual o valor do carro:"vCarro)
+se carro >=2010
+desconto<-0.07*vCarro;
+senao
+desconto<-0.012*vCarro;
+contador2010<_ contador2010+1
+fimse
+
+pago<-vCarro-desconto
+
+escreva("escreva valor do desconto:", desconto);
+escreva("valor a ser pago pelo cliente:", pago);
+
+contadorG<- contadorG+1
+
+ escreva("Deseja continuar? (S/N): ")
+   leia(escolha)
+
+fimenquanto
+
+escreva("total carros ate 2010:"contador2010);
+escreva("total geral de carros:"contadorG);
+fimalgoritmo
+
+ 

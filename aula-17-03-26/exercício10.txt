@@ -1,0 +1,38 @@
+algoritmo<exercício10>
+var
+valor, valorT, calculo, repeticao: inteiro
+valorO: caractere
+
+leia("qual tipo da operação??soma, subtração, divisão, multiplicação:", valorO);
+leia("qual valor da taboada?:", valorN);
+leia("fazer taboada ate numero?:", valorT);
+
+repeticao<-1
+enquanto repeticao<=valorT faca:
+
+se valorO="soma"
+calculo<-valorN+repeticao
+senao
+se valorO="subtração"
+calculo<-valorN-repeticao
+senao
+se valorO="divisão"
+calculo<-valorN/repeticao
+senao
+se valorO="multiplicação"
+calculo<-valorN-repetocao
+fimse
+fimse
+fimse
+fimse
+
+ escreva(valorN, " ", valorO, " ", repeticao, " = ", calculo)
+
+ repeticao<-repeticao+1
+fimenquanto
+fimalgoritmo
+
+
+
+
+

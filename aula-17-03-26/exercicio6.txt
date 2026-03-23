@@ -1,0 +1,26 @@
+algoritimo<exercicio6>
+Var 
+valorUm; valorDois; maior:inteiro
+
+leia("inserir valor:", valorUm);
+leia("inserir valor:", valorDois);
+se valorum=valorDois;
+escreva("erro!. valores iguais, não existe maior");
+senão
+valorUm>valorDois;
+maior<-valorUm;
+senão
+maior<-valorDois;
+
+fimSe
+
+escreva("valor maior é:", maior)
+
+se maior>=1 maior<=99;
+escreva("valor entre 1 e 99:");
+senão maior>=100 maior<=199;
+escreva("valor entre 100 e 199:");
+senão maior>=200;
+escreva("valor maior ou igual a 200");
+fimalgoritmo
+

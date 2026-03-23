@@ -1,0 +1,14 @@
+algoritimo<exercicio5>
+Var 
+cFabrica; imposto; Distribuidor; resultP; tota;
+Imposto<-0.45
+distribuidor<-0.28
+Leia("custo fábrica do carro:", cFabrica); 
+
+resultP<-(cFabrica*imposto)+cFabrica
+total<-(resultP*distribuidor)+resultP
+
+
+Escreva("custo fábrica do carro:", cFabrica); 
+Escreva("custo para consumidor", total);
+fimalgoritmo

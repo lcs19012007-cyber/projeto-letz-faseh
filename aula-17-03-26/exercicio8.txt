@@ -1,0 +1,25 @@
+algoritmo<exercicio8>
+Var
+nome:caractere
+idade, pessoas: inteiro 
+
+pessoas<-1
+enquanto pessoas<=75 faça:
+
+(leia("escreva seu nome:", nome);
+leia("escreva sua idade:", idade);
+
+se idade >=60
+escreva("usuário já idoso")
+senão 
+se idade >=18
+escreva("usuário maior de idade")
+senão 
+escreva("usuário menor de idade")
+fimse
+fimse)
+
+pessoas <- pessoas+1
+fimEnquanto 
+
+fimAlgoritmo
